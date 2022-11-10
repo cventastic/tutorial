@@ -27,7 +27,7 @@ Run the install-script (replace replace-with-ip with your servers public IP):
 ```
 ./avalanchego-installer.sh --archival --ip replace-with-ip --rpc local
 ```
-The node should be syncing now. To check u can use:
+The node should be syncing now. To check one can use:
 ```
 sudo journalctl -f -u avalanchego
 ```
@@ -96,5 +96,3 @@ Create a ssl certificate (replace your.domain.com with your domain, replace your
 ```
 sudo certbot --nginx --agree-tos --no-eff-email -m your@email.com -d your.domain.com
 ```
-
-
