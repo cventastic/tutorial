@@ -38,6 +38,7 @@ The RPC is locally available at 127.0.0.1:9650.
 #### Assumptions
 
 You have a domain pointing to the public IP address of your server.
+If using a Firewall make sure Port 80 and 443 are open.
 
 #### Instructions
 
@@ -96,3 +97,5 @@ Create a ssl certificate (replace your.domain.com with your domain, replace your
 ```
 sudo certbot --nginx --agree-tos --no-eff-email -m your@email.com -d your.domain.com
 ```
+
+
