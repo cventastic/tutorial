@@ -1,4 +1,4 @@
-Setup avalanche archival node
+### Setup avalanche archival node
 
 #### Hardware Requirements 
 
@@ -23,7 +23,8 @@ Make the install-script executable:
 ```
 chmod 755 avalanchego-installer.sh
 ```
-Run the install-script (replace replace-with-ip with your servers public IP):
+Run the install-script:
+:warning: replace "replace-with-ip" with your servers public IP
 ```
 ./avalanchego-installer.sh --archival --ip replace-with-ip --rpc local
 ```
@@ -33,7 +34,7 @@ sudo journalctl -f -u avalanchego
 ```
 The RPC is locally available at 127.0.0.1:9650.
 
-#### Reverse Proxy for access from another machine
+### Reverse Proxy for access from another machine
 
 #### Assumptions
 
@@ -97,7 +98,10 @@ sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 ```
 
-Create a ssl certificate (replace your.domain.com with your domain, replace your@email.com with your e-mail address)
+Create a ssl certificate:
+:warning: replace your.domain.com with your domain\
+:warning: replace your@email.com with your e-mail address
+
 ```
 sudo certbot --nginx --agree-tos --no-eff-email -m your@email.com -d your.domain.com
 ```
