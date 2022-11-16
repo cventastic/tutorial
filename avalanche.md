@@ -59,7 +59,9 @@ Create and open a new configuration file:
 sudo nano /etc/nginx/sites-enabled/proxy.conf
 ```
 
-Paste the following content into the file (replace your.domain.com with your domain, replace allow 10.10.10.1 with the IP you want to access the rpc from):
+Paste the following content into the file: \
+:warning: replace "your.domain.com" with your domain \
+:warning: replace "allow 10.10.10.1" with the IP you want to access the rpc from)
 ```
 server {
     listen 80;
