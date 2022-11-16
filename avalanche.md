@@ -28,7 +28,7 @@ Run the install-script: \
 ```
 ./avalanchego-installer.sh --archival --ip replace-with-ip --rpc local
 ```
-The node should be syncing now. To check one can use:
+The node should be syncing now. To check you can use:
 ```
 sudo journalctl -f -u avalanchego
 ```
