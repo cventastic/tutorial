@@ -10,7 +10,7 @@
 
 #### Assumptions
 
-User running the script is not root and has superuser privileges (can run ```sudo```)
+User running the script is not root and has superuser privileges (can run ```sudo```) \
 If using a firewall make sure Port 9651 (p2p Port) is open.
 
 #### Instructions:
